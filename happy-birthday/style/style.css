@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 13px;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
 }
 
 .four .text-box {
-  width: 600px;
+  width: 450px;
   margin: 0 auto;
   border: 3px solid #aaa;
   border-radius: 5px;
@@ -124,8 +125,8 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -35px;
+  width: 60px;
+  top: 14%;
   left: 41.5%;
   /* transform: scale(0.1); */
 }
@@ -227,13 +228,15 @@ body {
   font-weight: lighter;
 }
 
-#replay {
+#gallery {
   z-index: 3;
   cursor: pointer;
+  color: #892cdc;
+  text-decoration: none;
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
+/*@media screen and (max-height: 1000px) {
   .six .hat {
     left: 40%;
   }
@@ -255,7 +258,7 @@ body {
   .six .hat {
     left: 32%;
   }
-}
+}*/
 
 @media screen and (max-width: 500px) {
   .container {
@@ -266,10 +269,10 @@ body {
     width: 90%;
   }
 
-  .text-box .fake-btn {
+  /*.text-box .fake-btn {
     right: 5px;
     bottom: -38px;
-  }
+  }*/
 
   .idea-5 span {
     display: block;
@@ -279,11 +282,11 @@ body {
     font-size: 10rem;
   }
 
-  .six .hat {
+/*  .six .hat {
     width: 50px;
     top: -20px;
   }
-
+*/
   .wish-hbd {
     font-size: 2.2em;
   }
